@@ -1,0 +1,135 @@
+ 
+    body {
+      margin: 0;
+  
+    }
+
+    nav{
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      border-bottom: 1px solid blue;
+      margin-bottom: 3px;
+      width: 100vw;
+      height: 10vh;
+    }
+
+
+
+    nav a{ 
+      text-decoration: none;
+      color:#000;
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    footer { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid gray;
+      height: 10vh;
+    }
+
+    
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50vw;
+      height: auto;
+      padding: 20px;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    article p {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .error{
+      color: red;
+      font-size: 0.9rem;
+      margin-top: 5px;
+      display: none;
+    }
+
+    
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .input-group label {
+      margin-bottom: 5px;
+      font-size: 0.9rem;
+      color: #000;
+    }
+
+    .input-group input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top:12px;
+      width: 100%;
+      height: 40px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+
+    button:hover {
+      background-color: darkblue;
+    }
+
+    .already p {
+      font-size: small;
+    }
+
+    .already {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .already a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    .already a:hover {
+      text-decoration: underline;
+    }
+
+    .radio{
+      margin-bottom: 10px;
+    }
